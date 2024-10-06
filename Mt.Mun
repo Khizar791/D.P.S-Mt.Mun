@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MT MUN DPS Model Town</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #d9e9f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Chess-like pattern background for the header */
+        header {
+            background: linear-gradient(45deg, #005a9c 25%, #0099ff 25%, #0099ff 50%, #005a9c 50%, #005a9c 75%, #0099ff 75%, #0099ff);
+            background-size: 4rem 4rem;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        /* Section layout */
+        section {
+            padding: 2rem;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #005a9c;
+            font-size: 2rem;
+            border-bottom: 3px solid #005a9c;
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: #005a9c;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .form-section {
+            margin-top: 2rem;
+            background-color: #f0f8ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .form-section form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .form-section input,
+        .form-section textarea {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-section input[type="submit"] {
+            background-color: #005a9c;
+            color: white;
+            cursor: pointer;
+            grid-column: span 2;
+            text-transform: uppercase;
+            border: none;
+        }
+
+        .form-section input[type="submit"]:hover {
+            background-color: #003d73;
+        }
+
+        .contact-info {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .contact-info li span {
+            font-weight: bold;
+            color: #005a9c;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MT MUN DPS Model Town</h1>
+    </header>
+
+    <section>
+        <h2>What is MUN?</h2>
+        <p>Model United Nations (MUN) is an academic simulation of the United Nations, where students take on the role of delegates from different countries to discuss and debate pressing global issues. This simulation teaches valuable skills such as public speaking, negotiation, diplomacy, and problem-solving.</p>
+        <p>In MUN conferences, students are tasked with proposing solutions to some of the world’s most challenging problems, developing a deeper understanding of international relations, and building their confidence in a formal debate setting.</p>
+    </section>
+
+    <section>
+        <h2>MT MUN History</h2>
+        <p>Recently founded at D.P.S Model Town, the MT MUN initiative aims to create a platform where students can hone their skills in diplomacy, public speaking, and critical thinking. Our mission is to empower the youth of D.P.S Model Town with opportunities to explore international relations and develop leadership skills.</p>
+        <p>With a strong emphasis on speech and diplomacy, the MT MUN strives to build a legacy of great minds tackling real-world challenges, making a difference in global discourse.</p>
+    </section>
+
+    <section class="form-section">
+        <h2>MT MUN Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="grade">Grade:</label>
+            <input type="text" id="grade" name="grade" required>
+
+            <label for="why-join">Why do you want to join MUN?</label>
+            <textarea id="why-join" name="why-join" rows="4" required></textarea>
+
+            <input type="submit" value="Submit Registration">
+        </form>
+    </section>
+
+    <section>
+        <h2>Contacts</h2>
+        <ul class="contact-info">
+            <li><span>Director of Registration:</span> +92 305 7713000</li>
+            <li><span>President Muhammad Diyan:</span> +92 304 7868868</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 MT MUN DPS Model Town | All Rights Reserved
+    </footer>
+
+</body>
+</html>
